@@ -87,6 +87,7 @@ a.task-board-nobody {
 }
 
 .task-board-icons {
+    float: right;
     text-align: right;
     margin-top: 8px;
 }
@@ -118,6 +119,10 @@ span.task-board-date-overdue {
 /* task score */
 .task-score {
     font-weight: bold;
+}
+
+.task-score-abs {
+    font-weight: bold;
     position: absolute;
 }
 
@@ -128,6 +133,18 @@ span.task-board-date-overdue {
 }
 
 .task-show-details .task-score {
+    bottom: 5px;
+    right: 5px;
+    font-size: 2em;
+}
+
+.task-board .task-score-abs {
+    font-size: 1.6em;
+    left: 2px;
+    bottom: 0;
+}
+
+.task-show-details .task-score-abs {
     bottom: 5px;
     right: 5px;
     font-size: 2em;

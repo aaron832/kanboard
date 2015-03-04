@@ -1,7 +1,7 @@
 <div class="color-<?= $task['color_id'] ?> task-show-details">
     <h2><?= $this->e('#'.$task['id'].' '.$task['title']) ?></h2>
     <?php if ($task['score']): ?>
-        <span class="task-score"><?= $this->e($task['score']) ?></span>
+        <span class="task-score-abs"><?= $this->e($task['score']) ?></span>
     <?php endif ?>
     <ul>
         <?php if ($task['reference']): ?>
